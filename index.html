@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/scss/style.css">
+  <script src="assets/js/scripts.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <a href="#" class="logo">
+      <span class="sr-only">logo</span>
+      <img src="assets/images/logo.svg" alt="logo">
+    </a>
+    <article class="calculator">
+      <section class="calculator__form flow">
+        <form action="">
+          <div class="form__control">
+            <label for="bill-text">Bill</label>
+            <p class="err-message"></p>
+            <div class="input__group">
+              <img src="assets/images/icon-dollar.svg" alt="" class="icon">
+
+              <input type="number" name="bill-text" id="bill-text" class="bill__text" placeholder="0">
+            </div>
+
+          </div>
+
+          <div class="form__control">
+            <label for="tip__selection">Select Tip %</label>
+            <p class="err-message"></p>
+            <div class="tip__selection" id="tip__selection">
+
+            </div>
+
+            <div class="form__control">
+              <label for="number-people-text">Number of People</label>
+              <p class="err-message"></p>
+              <div class="input__group">
+                <img src="assets/images/icon-person.svg" alt="" class="icon">
+                <input type="number" placeholder="0" name="number-people-text" id="number-people-text">
+              </div>
+            </div>
+        </form>
+      </section>
+
+
+      <section class="calculator__summary">
+        <div class="calculator__amount">
+          <h2>Tip Amount<span>/ person</span></h2>
+          <div class="calculator__amount-value">$0.00</div>
+        </div>
+        <div class="calculator__total">
+          <h2>Total<span>/ person</span></h2>
+          <div class="calculator__total-value">$0.00</div>
+        </div>
+
+        <button type="reset" class="btn" disabled>RESET</button>
+      </section>
+    </article>
+
+  </main>
+
+</body>
+
+</html>

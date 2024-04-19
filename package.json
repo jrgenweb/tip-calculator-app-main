@@ -1,0 +1,27 @@
+{
+  "name": "single-page-developer-portfolio",
+  "version": "1.0.0",
+  "description": "![Design preview for the Single-page developer portfolio coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "autoprefixer": "^10.4.19",
+    "browser-sync": "^3.0.2",
+    "cssnano": "^6.1.2",
+    "dart-sass": "^1.25.0",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-postcss": "^10.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.72.0"
+  }
+}
